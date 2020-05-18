@@ -1,0 +1,311 @@
+body {
+	margin: 0px;
+
+}
+.container {
+	width: 75%;
+	margin: auto;
+}
+.header {
+	width: 1433px;
+	height:1150px;
+	background: url(../img/bg-header.png);
+	background-size: cover;
+}
+/* begin header */
+.header-1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#group {
+	margin-top: 18px;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+
+}
+h1 {
+	margin-top: 40px;
+}
+ul li {
+	padding: 20px;
+	color: #505F98;
+}
+
+ul a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
+
+
+#btn-purchase {
+	width: 200px;
+	margin-top: 50px;
+	height: 25px;
+	background-color: rgb(215, 243, 54);
+	color: white;
+	margin-right: 60px;
+}
+/* end header */
+
+/* begin introduce */
+.introduce {
+	width: 1536px;
+	height: 700px;
+	margin-top: 250px;
+	/* background-color: #E7ECFF; */
+}
+#introduce-img {
+	width: 950px;
+	position: absolute;
+	opacity: 0.5;
+	margin-left: 450px;
+}
+.introduce h2 {
+	width: 540px;
+	font-size: 50px ;
+	margin-left: 55px;
+	line-height: 66px;
+
+}
+.introduce p {
+	color: #6F7CB2;
+	width: 520px;
+	margin-left: 55px;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 30px;
+}
+.btn-product {
+	display: flex;
+	margin-left: 55px;
+	margin-top: 50px;
+}
+#btn-ui {
+	width: 190px;
+	height: 35px;
+	background-color: #111B47;
+	color: white;
+}
+#btn-learn {
+	width: 190px;
+	height: 35px;
+	margin-left: 40px;
+	background-color: rgba(255,255,255, 0);
+	color: #111B47;
+}
+/* end introduce */
+
+/* begin mobile */
+.mobile-left {
+	width: 600px;
+}
+.mobile {
+	margin-top: 100px;
+	display: flex;
+	margin-left: 55px;
+}
+.mobile h2 {
+	font-size: 35px ;
+	line-height: 66px;
+
+}
+.mobile p {
+	color: #6F7CB2;
+	width: 535px;
+	font-size: 15px;
+	font-style: normal;
+	line-height: 20px;
+}
+.title-box h4 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+.title-box {
+	display: flex;
+}
+.title p{
+	width: 250px;
+}
+#icon-title {
+	width: 40px;
+}
+
+#title-2 {
+	margin-left: 35px;
+}
+#img-title {
+	margin-left: 100px;
+	border-bottom:1px solid black;
+}
+#girl-icon {
+	width: 300px;
+	opacity: 0.5;
+}
+#ipad-icon {
+	width: 300px;
+	opacity: 0.5;
+}
+
+/* end mobile */
+
+
+.box {
+	margin-top: 100px;
+	margin-left: 55px
+}
+
+#mountain-img,#iphone-img,#tree-img  {
+	width: 400px;
+	margin-left: 100px
+}
+.box {
+	display: flex;
+		
+}
+
+.content {
+	width: 400px;
+	margin-top: 125px;
+	margin-left: 200px;
+}
+.content p {
+	color: #6F7CB2;
+	width: 535px;
+	font-size: 15px;
+	font-style: normal;
+	line-height: 20px;
+}
+#price {
+	margin-top: 200px;
+	width: 1433px;
+	height:950px;
+	background: url(../img/rectangle.png);
+	background-size: cover;
+}
+#img-price {
+	margin-left: 200px;
+	margin-top: -50px;
+}
+#box-price {
+	margin-left: 250px;
+	margin-top: -50px;
+	width: 1060px;
+	height:807px;
+	background: url(../img/path.png);
+	background-size: cover;
+}
+#box-price h2 {
+	width: 600px;
+	text-align: center;
+	margin-left: 60px;
+	color: #091133;
+	padding-top: 190px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 48px;
+}
+
+#text-price {
+	width: 600px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	margin-left: 177px;
+	color: #6F7CB2;
+}
+#box-price h1 {
+	font-weight: 500;
+	font-size: 50px;
+	line-height: 66px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #222F65;
+}
+#text-UI {
+	margin-top: -28px;
+
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	color: #222F65;
+}
+#text-purchase {
+	margin-top: 80px;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	color: #5D6970;
+}
+#btn-purchase-design {
+	width: 190px;
+	height: 25px;
+	background-color: rgb(215, 243, 54);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	color: white;
+	margin-left: 434px;
+}
+#footer {
+	margin-top: -100px;
+	width: 1433px;
+	height: 220px;
+	background: #E7ECFF;
+}
+#footer-1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#footer p {
+	margin-left: 100px;
+	margin-top: 50px;
+	color: #939EA4;
+}
+#btn-buy {
+	width: 110px;
+	margin-top: 50px;
+	height: 20px;
+	background-color: rgb(215, 243, 54);
+	color: white;
+	margin-right: 100px;
+}
+
+#footer-2{
+	border-top: 1px solid #CDD1D4;
+	display: flex;
+	justify-content: space-around;
+	width: 86%;
+	margin: 0 auto 0 auto;
+}
+
+#footer-2 #group {
+	margin-left: -62px;
+}
+
+
+#footer-2 li {
+	color: #929ECC;
+}
+#icon-footer {
+	flex-grow: 1;
+	margin-top: 55px;
+	margin-left: 764px;
+}
+.icon-footer {
+	width: 15px;
+	height: 15px;
+	margin-left: 30px;
+}

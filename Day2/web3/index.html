@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web-3</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+		<div id="top-header">
+			<label>Hi!<a href="#">Sign in</a> or <a href="#">Register</a></label>
+			<div id="menu-header">
+				<ul>
+					<li><a href="#">Daily Deals</a></li>
+					<li><a href="#">Sell</a></li>
+					<li><a href="#">Help & Contact</a></li>
+				</ul>
+			</div>
+			<div id="icon-header">
+				<img src="img/icon-header.png">
+				<span>£GBP</span>
+			</div>
+			<div id="shop-buy">
+				<img src="img/shop-icon.png">
+				<span>Your bag: £3.99</span>
+			</div>
+		</div>
+		<div id="bottom-header">
+			<h1>shopmate</h1>
+			<button id="btn-menu"><img src="img/icon-menu.png"></button>
+			<div id="dropdown-menu">
+				<a href="#">Women</a>
+   				<a href="#">Men</a>
+   				<a href="#">Kids</a>
+   				<a href="#">Shoes</a>
+   				<a href="#">Brands</a>
+			</div>
+		</div>
+		<div id="product">
+			<div id="product-view">
+				<div id="img-product">
+					<img src="img/ao-co.png" id="img-view">
+				</div>
+				<div id="more-img">
+					<img src="img/ao-co.png" id="img-more-product" onclick="changeImage()">
+					<img src="img/ao-co1.png" id="img-more-product" onclick="changeImage()">
+					<img src="img/ao-co2.png" id="img-more-product" onclick="changeImage()">
+				</div>
+			</div>
+			<div id="product-information">
+				<div id="rate-star">
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star"></span>
+				</div>
+				<h2>Super Oversized T-Shirt With Raw Sleeves In Brown</h2>
+				<div id="price">
+					£13.99
+				</div>
+				<p>Color</p>
+				<div id="color-product">
+					<ul>
+						<li style="background:#6EB2FB"></li>
+						<li style="background:#00D3CA"></li>
+						<li style="background:#F62F5E"></li>
+						<li style="background:#FE5C07"></li>
+						<li style="background:#F8E71C"></li>
+						<li style="background:#7ED321"></li>
+						<li style="background:#9013FE"></li>
+					</ul>
+				</div>
+				<p>Size</p>
+				<div id="size-product">
+					<span>XS</span>
+					<span>S</span>
+					<span>M</span>
+					<span>L</span>
+					<span>XL</span>
+					<span>XXL</span>
+				</div>
+				<p>Quanity</p>
+				<div id="quanity">
+					<button id="btn-decrement" onclick="decreMent()"><img src="img/minus-icon.png"></button>
+					<input type="text" name="quantity" min="1" value="1" id="in-quantity" disabled>
+					<button id="btn-increment" onclick="increMent()"><img src="img/plus-icon.png"></button>
+				</div>
+				<div id="cart">
+					<button id="btn-cart"> Add to cart</button>
+					<img src="img/wish-icon.png"><span>Add to Wish List</span>
+				</div>
+			</div>
+		</div>
+		<div id="review">
+			<div id="product-review">
+				<h2>Product reviews</h2>
+				<div id="user-review">
+					<div id="rate">
+						<div id="rate-star">
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<div id="time">
+								<p>one hour ago</p>
+							</div>
+						</div>
+						<div id="user-comment">
+							<p>Got this through the post the other day and right from opening the packet I knew this was quality, put it on and I was right!! Well done</p>
+							<div id="react-comment">
+								<div id="like-comment">
+									<img src="img/wish-icon.png" id="img-like">
+									<span>113</span>
+								</div>
+								<div id="comment">
+									<img src="img/comment.png" id="img-comment">
+									<span>6</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="add-review">
+				<div id="user-add-review">
+					<H2>Add a review</H2>
+					<div id="review-box">
+						<textarea id="txt-name"></textarea>
+						<textarea id="txt-comment"></textarea>
+						<p>Your review must be at least 50 characters &nbsp; <a href="#">Full review guidelines</a></p>
+						<div id="rate-star-add">
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+						</div>
+						<button id="btn-submit">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="another-product">
+			<div id="more-product">
+				<div id="another-product">
+					<h2>You may also like</h2>
+					<div id="list-product">
+						<div id="item">
+							<img src="img/item1.png" id="img-item">
+							<p>New Look T-Shirt In Gradient Fade</p>
+							<span>£14.99</span>
+						</div>
+						<div id="item">
+							<img src="img/item2.png" id="img-item">
+							<p>New Look T-Shirt In Gradient Fade</p>
+							<span>£14.99</span>
+						</div>
+						<div id="item">
+							<img src="img/item3.png" id="img-item">
+							<p>New Look T-Shirt In Gradient Fade</p>
+							<span>£14.99</span>
+						</div>
+						<div id="item">
+							<img src="img/item4.png" id="img-item">
+							<p>New Look T-Shirt In Gradient Fade</p>
+							<span>£14.99</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer-page">
+			<div id="menu-page">
+				<ul>
+					<li><a href="#">Women</a></li>
+					<li><a href="#">Men</a></li>
+					<li><a href="#">Kids</a></li>
+					<li><a href="#">Shoes</a></li>
+					<li><a href="#">Brands</a></li>
+				</ul>
+			</div>
+			<div id="social">
+				<a href="#"><img src="img/ins.png"></a>
+				<a href="#"><img src="img/pinterest.png"></a>
+				<a href="#"><img src="img/twitter.png"></a>
+				<a href="#"><img src="img/facebook.png"></a>
+			</div>
+			<div id="privacy">
+				<p>©2016 shopmate Ltd  •  <a href="#">Contact</a>  •  <a href="#">Privacy policy</a></p>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
